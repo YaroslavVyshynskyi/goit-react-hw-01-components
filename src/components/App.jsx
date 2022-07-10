@@ -8,7 +8,6 @@ import { FriendsList } from 'components/FriendList/FriendList';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory'
 
 export const App = () => {
-  console.log(user);
   return (
     <div>
       <Profile user={user} />
